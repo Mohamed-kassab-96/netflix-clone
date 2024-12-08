@@ -7,7 +7,8 @@ export default defineConfig({
   server: {
 		proxy: {
 			"/api": {
-				target: "http://localhost:8081",
+				// target: "http://localhost:8081",
+				target: "https://netflix-clone-six-lyart-36.vercel.app/",
 			},
 		},
 	},
